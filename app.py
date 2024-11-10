@@ -109,5 +109,6 @@ with coluna_1:
     
 with coluna_2:
     # st.write(df_vendas_por_item)
+    
     st.plotly_chart(graf_vendas_por_item)
     st.plotly_chart(graf_item_por_distribuidor)
